@@ -3,9 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 #Virtual environment
 .venv
 
+=======
+>>>>>>> 942314c62a3b50ac4ad6d9394f017092877284d2
 # C extensions
 *.so
 
