@@ -22,15 +22,17 @@ from flask.templating import render_template
 
 app = fl.Flask(__name__)
 
-# @app.route('/')
-# def home():
-#   return app.send_static_file('Index.html')
 
 @app.route('/', methods = ['POST', 'GET'])
 def result():
   if request.method == 'POST':
+    #Recieve the Data from the flask application
     speed = request.form['speed']
+
+    #Format the speed to a float32
     speed = np.float32(speed)
+
+    #Pass the data into getSpeedPrediction
     power = getSpeedPrediction(speed)
 
     power = np.round_(power, 2)
@@ -42,7 +44,9 @@ def result():
     return render_template('Index.html', output = "...")
 
 def getSpeedPrediction(x):   
+    #Add to numpy array
     x = np.array([[x]])
+    #Reshape x using (-1, 1) as its a single feature
     x = np.reshape(x, (-1, 1))
     value = speedPrediction(x)
     return(value)
