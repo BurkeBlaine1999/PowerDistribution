@@ -3,7 +3,7 @@ The goal of this project is to create a model that can accurately predict the po
 
 ## Authors
              
-* **Blaine Burke** - [GitHub](https://github.com/BurkeBlaine1999
+* **Blaine Burke** - [GitHub](https://github.com/BurkeBlaine1999)
 
 ## Getting Started
 
@@ -26,7 +26,9 @@ The goal of this project is to create a model that can accurately predict the po
  Open Command Prompt
 ```
 ```
- Enter 'export FLASK_APP=Home.py'
+ LINUX : Enter 'set FLASK_APP=Home.py'
+  or
+ WINDOWS : Enter 'export FLASK_APP=Home.py'
 ```
 ```
  Enter 'flask run'
