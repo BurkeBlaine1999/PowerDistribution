@@ -59,6 +59,7 @@ def speedPrediction(x):
     x = scaler.transform(x)
     value = model.predict(x)
 
+    #return predicted value
     return(value)
 
 if __name__ == '__main__':
