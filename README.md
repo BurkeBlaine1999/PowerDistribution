@@ -68,4 +68,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Acknowledgments
 [Ian McLoughlin ](https://github.com/ianmcloughlin) - Provided the task
 
-[IanStackoverflow](https://stackoverflow.com/) - Helped with debugging issues
+[Stackoverflow](https://stackoverflow.com/) - Helped with debugging issues
